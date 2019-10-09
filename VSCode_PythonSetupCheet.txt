@@ -1,0 +1,66 @@
+Python
+Andy Erman <andy.erman@swisslog.com>
+Wed 10/9/2019 2:14 PM
+http://www.notyourdadsit.com/blog/2018/4/3/cheatsheet-setup-github-on-visual-studio-code?
+
+Setup Github on Visual Studio Code - Not Your Dad's IT
+I usually access github from within Visual Studio Code. As such, when I start coding a new project, I often need a reminder, or a cheat sheet for how to connect Visual Studio Code to a Git repository. These notes are more for me than for anyone else, but I'm sharing them nonethel
+www.notyourdadsit.com
+
+
+CheatSheet - Setup Github on Visual Studio Code
+APRIL 03, 2018 IN INSTALL, TIP
+I usually access github from within Visual Studio Code.  As such, when I start coding a new project, I often need a reminder, or a cheat sheet for how to connect Visual Studio Code to a Git repository.  These notes are more for me than for anyone else, but I'm sharing them nonetheless.
+
+Steps:
+Create a directory on the local file system.
+Create a repo on Github.
+Select Clone "Clone or download" on Github, copy the link
+In Visual Studio Code, sect File -> Add Folder to Workspace -> Select the newly created directory
+Select Terminal Window
+In the window, type:
+git config --global user.name <github userID>
+
+git clone <URL from github link copied earlier>
+That should be all that's required.  any newly created file should be available on github after stage/commit/push.
+
+
+
+Andy Erman
+
+Technical Support Specialist
+
+Healthcare – Pharmacy Automation Operations
+
+ 
+
+Swisslog Healthcare (formerly Talyst)
+
+11332 NE 122nd Way
+
+Suite 300
+
+Kirkland, WA. 98034
+
+USA
+
+ 
+
+Phone +1 800.541.4102 Option 3
+
+Fax +1 425.289.5401
+
+ 
+
+swisslog.com/healthcare
+
+cid:image001.png@01D3EE90.F56BA450
+
+ 
+
+About Swisslog Healthcare
+
+Swisslog Healthcare is a leading supplier of services and solutions for material transport, medication management and supply chain management in healthcare facilities. Swisslog has installed facility-wide and pharmacy automation systems in more than 3,000 hospitals worldwide. The company offers integrated solutions from a single source – from consulting to design, implementation and lifetime customer service.
+
+
+This message may contain legally privileged or confidential information and is therefore addressed to the named persons only. The recipient should inform the sender and delete this message, if he/she is not named as addressee. The sender disclaims any and all liability for the integrity and punctuality of this message. The sender has activated an automatic virus scanning, but does not guarantee the virus free transmission of this message.
